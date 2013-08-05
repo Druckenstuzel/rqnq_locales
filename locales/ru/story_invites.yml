@@ -1,0 +1,14 @@
+ru:
+  story_invites:
+    new:
+      title: 'Новое приглашение'
+      back_to_story: 'в историю: <span>%{story_title}</span>'
+    form:
+      email_placeholder: '.'
+      text_placeholder: 'Это текст будет добавлен в приглашение (заполнять не обязательное).'
+      back_to_story: 'Вернуться к истории (без отправки)'
+    create:
+      sent_complete: 'Приглашение отправлено.'
+    approve:
+      approve: 'Вы стали участником истории.'
+      disapprove: 'Вы отказались от участия в истории.'

@@ -1,0 +1,169 @@
+en:
+  helpers:
+    submit:
+      create: 'Create %{model}'
+      update: 'Update %{model}'
+  error: 'Something went wrong!'
+  titles:
+    rqnq: "RQ'n'Q"
+    quests_map: 'Quest map'
+    quests: 'Quests'
+    new_quest: 'Submit quest'
+    edit_quest: 'Edit quest'
+    invitations: 'Keys and invitations'
+  presentation:
+    description: 'is a limitless universe which is inside our real world. It is the universe where desires become quests，their fulfillment becomes adventures, and the people who fulfill the quests become heroes.'
+    facts:
+      reality: "Quests are created in the RQ’n’Q universe, but they are to become adventures only in the real world" 
+      adventures: 'The basis of the universe &#8212 is the adventures to fulfill your desires, make your ideas come true, and last but not least, find true and devoted friends.'
+      key: "In order to get here you need a special key. A kind of a key that can only be created by an RQ’n’Q hero."
+  registrations:
+    new:
+      registration_closed: 'You need an invitation in order to become a player.'
+  quest_time_error: 'Quest cannot be edited, 15 minutes has expired since its creation.'
+  layouts:
+    our_email: 'E-mail'
+    navigation:
+      my_page: 'My page'
+      map: 'Map'
+      new_quest: 'New quest'
+  users:
+    show:
+    panel:
+      invitations: 'Keys'
+      settings: 'Settings'
+      exit: 'Exit'
+  profile:
+    achievements:
+      title: 'Achievements'
+      portal_jumper: 'Jumped through portal'
+      completed_introduction: 'Completed education'
+    courier:
+      user_text: "This person doesn't have any quests where you can become a hero."
+      text_step1: "We are Repeating Entries, we will watch the evolution of your avatar and tell you about your new abilities or any other interesting information about the RQ’n’Q world."
+    navigation:
+      activity: 'Activity'
+      open_tasks: 'Open tasks'
+  characters:
+    repeating_entries: 'Repeating entries'
+  comments:
+    placeholder: 'Text of the new comment...'
+    submit: 'Submit'
+    created_comment: 'The comment has been created'
+    notice:
+      checked_demand: "You can start the discussion as soon as you appoint the hero. This can be done by approving somebody's application."
+  reviews:
+    review_title: 'Reviews'
+    review_submit: 'Submit review'
+    reviewer_author: 'Quest creator'
+    reviewer_hero: 'Hero'   
+    posted_review: 'The review has been published!' 
+    rating:
+      rating_1: 'Bad'
+      rating_6: 'Good'
+      rating_10: 'Excellent'
+  demands:
+    demand: 'Application'
+    create_error: 'The application cannot be sent empty. It must convince the quest creator to appoint you as the hero.'
+    demands: 'Applications'
+    actions:
+      approve: 'Approve'
+      disapprove: 'Decline'
+    approve: 'The application has been approved and its author has been appointed as the hero.'
+    disapprove: 'The application has been declined :('
+    submit: 'Submit application'
+    placeholder: 'Tell why you want to participate in the quest (your application will only be seen by the quest creator).'
+    notice:
+      wait_title: 'It is time to show some patience!'
+      wait_description: 'We will send you an e-mail as soon as there is someone willing to become the hero of this quest.'
+      info_title: 'Send an application in order to become the hero of the quest!'
+      info_description: 'When your application is confirmed you would be able to take part in the discussion, meet the quest creator and other heroes.'
+      sent_title: 'The application has been submitted.'
+      sent_description: 'We will send you an e-mail when the quest creator appoints you as the hero.'
+  unauthorized:
+    manage:
+      all: "RQ'n'Q cannot be reached by strangers."
+  address_format: 
+    street: 'street'
+  quests:
+    quest_discussion: 'Discussion'
+    quest_confidential: 'This quest is only available for the appointed heroes and is closed for new applications.'
+    quest_title: 'Quest'
+    quest_point: 'Quest point'
+    quest_update: 'Quest has been updated.'
+    quest_heroes: 'Heroes'
+    quest_complete: 'Complete'
+    quest_completed: 'You shall decide if the quest was successful or not. Write it in your review!'
+    create_quest: 'Create quest'
+    introduction_quests_point: 'You shall see the map and the quest if that is the ordinary one.'
+    quest_not_aviable_for_comment: 'Unavailable for comments'
+    statuses:
+      open: 'Open'
+      confidential: 'Confidential'
+      complete:  'Completed'
+    starting_quest: 'The starting quest'
+    author: 'Quest creator'
+    appointed_hero: 'you have been appointed as the hero!'
+    you_hero: 'Now you are the hero of this quest!'
+    has_hero: 'This quest already has its hero, that is why it is unavailable for creating new discussions and continuing old ones!'
+    quest_was_deleted: 'Quest has been deleted.'
+    no_discussions: 'Currently there are no pretenders for this quest.'
+    create_your_discussion: 'Write here why you are willing to become the hero of this quest!'
+    describe_experience: 'Tell about your impressions (not less than 50 symbols)! '
+    find_new_adventure: 'Find a new<br>adventure!'
+    feats: 'Deeds'
+    select_address: 'Write down or point the place for the quest.'
+    text_area_description: 'Describe  your quest here (up to 110 symbols). i.e.: Looking for a company for jogging in the park at 7 p.m.'
+    introduction_quest_description: "Guide me at RQ'n'Q."
+    tasks:
+      title: 'Completed tasks'
+      title_my: 'My tasks'
+    my_tasks:
+      title: 'My tasks'
+      no_active: 
+        text: 'Currently you have no active tasks. But you can always %{add_quest_link} :)'
+        make_different: 'make it different'
+    adventures:
+      title: 'Participant of the adventures'
+      title_my: 'Adventures'
+    adventures_block:
+      user_have_not_completed: "This fellow man hasn't become the hero of the adventure yet."
+      i_have_not_completed_or_in_progress_html: 'Here you will see the &laquo;brief descriptions&raquo; of the adventures you are going to take part in.'
+    controls:
+      edit: 'Edit'
+      delete: 'Delete'
+    error_page:
+      deleted_title: 'Quest №%{number} has been deleted' 
+      blocked_title: 'Quest №%{number} has been blocked' 
+      deleted_description: 'This quest will not become an adventure. The reasons for this are only known by its %{author_href}.'
+      blocked_description: 'This quest is blocked. You can receive  information regarding the reasons for this by making an inquiry to <a class="error__link" href="mailto:tribunal@rqnq.com">tribunal@rqnq.com</a>. Plese provide the quest number in the e-mail.'
+      additional_text: "Have no worries! You can look for another worthy adventure on the map %{map_href} or come back to your home page. %{profile_href}."
+      map: 'on the map'
+      my_page: 'your page'
+  invitations:
+    new_invitation: 'New invitation'
+    keys: 'Keys'
+    sent_code: 'Sent'
+    email_placeholder: "Friend's e-mail (the first key will be sent)"  
+    invitee: 'To'
+    invite_submit: 'Invite'
+    activation_date: 'Activation date'
+    sent_invite: 'Invitation has been sent.'
+    note:
+      title: 'Note'
+      text: 'The key is valid until somebody uses it to register. By delivering the key in person please tell your username (%{username}). '
+  adventure_guide:
+    something_about_adventures: 'Something about adventures...'
+    find_on_map: 'Can be found on the map'
+    find_on_map_description: 'Every quest creator points out a location on the map &#8212; The area where it should be completed.'
+    very_different: 'They can be very different'
+    very_different_description: 'It can be a friendly walk, lifting  a cupboard up to the tenth floor or just a cake:)'
+    expecting_heroes: 'They are waiting for their heroes'
+    expecting_heroes_description: 'Every participant can make his claim to become the hero of the adventure.'
+    quest_example:
+      photo: 'Willing to take a walk in the downtown and make some photos from the high spots!'
+  time:
+    formats:
+      default: "%d.%m.%Y"
+      comment: "%d.%m.%Y в %H:%M"
+  select_lang: 'In English'

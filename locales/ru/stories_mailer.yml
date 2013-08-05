@@ -1,0 +1,11 @@
+ru:
+  stories_mailer:
+    completed:
+      title: 'Приключение завершено'
+    new_demand:
+      title: '%{user_name} хочет стать героем вашего квеста!'
+    approve_demand:
+      title: 'Ваша заявка принята'
+    new_city_stories:
+      title: 'Новые истории в вашем городе'
+

@@ -1,0 +1,21 @@
+ru:
+  chapter:
+    introduction: 'Вступление'
+    type: 'Глава'
+    back_to_story: '<span>Вернуться к истории</span>:'
+    delete_confirm: 'Уверены, что хотите удалить эту главу?'
+    author: 
+      text: 'Автор: %{author}'
+    comments:
+      title: 'Комментарии к главе'
+    new:
+      title: 'Новая глава'
+    edit:
+      title: 'Редактирование главы'
+    form:
+      back_to_story: 'в истории: <span>%{story_title}</span>'
+      title_placeholder: 'Например: Выбираем участников.'
+      content_placeholder: 'Расскажите содержание о чем будет эта глава.'
+      back: 'Вернуться без сохранения'
+    notices:
+      success_destroy: 'Глава удалена.'

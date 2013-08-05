@@ -1,0 +1,130 @@
+ru:
+  story:
+    type:
+      Quest: 'История-задание'
+      Story: 'История'
+    notices:
+      success_complete: 'История завершена!'
+      success_destroy: 'История удалена.'
+      success_update: 'История отредактирована.'
+      success_hero_destroy: 'Участник удален.'
+    delete_confirm: 'Уверены, что хотите удалить эту историю?'
+    hero_destory_confirm: 'Уверены, что хотите удалить этого участника?'
+    hero_destory_me_confirm: 'Уверены, что хотите покинуть эту историю?'
+    panel:
+      new_invite: 'Новое приглашение'
+    chapters:
+      title: 'Главы'
+      new_chapter: 'Добавить новую'
+      introduction: 'Вступление'
+    comments:
+      title: 'Комментарии'
+    demands:
+      title: 'Комментарии'
+    new:
+      title: 'Новая история'
+    edit:
+      title: 'Редактирование истории'
+    form:
+      title_placeholder: 'Например: Жду в гости на турнир по сони-плейстейшн 4!'
+      introduction_placeholder: 'Это текст поможет быстрее разобраться в основной идее истории и промотивировать других людей стать ее участниками.'
+      address_input_placeholder: 'Адрес где должна начаться или произойти ваша история.'
+      back: 'Вернуться без сохранения'
+    heroes:
+      destroy_hero: 'Удалить участника'
+      title: 'Участники'
+      new_invite: 'Пригласить'
+      invitations_title: 'Ваши приглашения:'
+    activities: 
+      new_story: 
+        body: 'Вы создали эту историю и первую главу &laquo;%{resource}&raquo;.'
+        introduction: 'Вступление'
+      story_add_hero:
+        you: 
+          body: 'Вы добавили нового участника: %{resource}.'
+        male: 
+          body: '%{author} добавил нового участника: %{resource}.'
+        female:
+          body: '%{author} добавила нового участника: %{resource}.'
+      story_destroy_hero:
+        you: 
+          body: 'Вы исключили участника: %{resource}.'
+        male: 
+          body: '%{author} исключил участника: %{resource}.'
+        female:
+          body: '%{author} исключила участника: %{resource}.'
+      story_self_destroy_hero:
+        you: 
+          body: 'Вы покинули эту историю.'
+        male: 
+          body: '%{author} покинул эту историю.'
+        female:
+          body: '%{author} покинула эту историю.'
+      story_add_demand:
+        you: 
+          body: 'Вы подали заявку на участие в этой истории.'
+        male:
+          body: '%{author} подал заявку на участие в этой истории.'
+        female:
+          body: '%{author} подала заявку на участие в этой истории.'
+      story_approve_demand:
+        you: 
+          body: 'Вы подвердили заявку на участие от пользователя: %{resource}.'
+        male:
+          body: '%{author} подвердил заявку на участие от пользователя: %{resource}.'
+        female:
+          body: '%{author} подвердила заявку на участие от пользователя: %{resource}.'
+      story_disapprove_demand:
+        you: 
+          body: 'Вы отклонили заявку на участие от пользователя: %{resource}.'
+        male:
+          body: '%{author} отклонил вашу заявку на участие в истории.'
+        female:
+          body: '%{author} отклонила вашу заявку на участие в истории..'
+      story_approve_invite:
+        you: 
+          body: 'Вы приняли приглашение на участие в этой истории.'
+        male:
+          body: '%{author} принял приглашение на участие в этой истории.'
+        female:
+          body: '%{author} приняла приглашение на участие в этой истории.'
+      story_disapprove_invite:
+        you: 
+          body: 'Вы отклонили приглашение на участие в этой истории.'
+        male:
+          body: '%{author} отклонил приглашение на участие в этой истории.'
+        female:
+          body: '%{author} отклонила приглашение на участие в этой истории.'
+      story_add_chapter:
+        you: 
+          body: 'Вы добавили новую главу &laquo;%{resource}&raquo;.'
+        male:
+          body: '%{author} добавил новую главу &laquo;%{resource}&raquo;.'
+        female:
+          body: '%{author} добавила новую главу &laquo;%{resource}&raquo;.'
+      story_add_invite:
+        you: 
+          body: 'Вы отправили приглашение для адресата: &laquo;%{resource}&raquo;.'
+        male:
+          body: '%{author} отправил новое приглашение для адресата: &laquo;%{resource}&raquo;.'
+        female:
+          body: '%{author} отправила новое приглашение для адресата: &laquo;%{resource}&raquo;.'
+      story_add_comment:
+        you: 
+          body: 'Вы добавили новый %{resource}.'
+        male:
+          body: '%{author} написал новый %{resource}.'
+        female:
+          body: '%{author} написала новый %{resource}.'
+      chapter_add_comment:
+        you: 
+          body: 'Вы добавили новый комментарий в главу %{resource}.'
+        male:
+          body: '%{author} написал новый комментарий в главу %{resource}.'
+        female:
+          body: '%{author} написала новый комментарий %{resource}.'
+      resources:
+        comment: 'комментарий'
+        chapter: 'главу'
+        introduction: 'Вступление'
+

@@ -1,0 +1,108 @@
+ru:
+  mongoid:
+    models:
+      quest: 'Квест'
+      invite: 'Ключ'
+    attributes:
+      story:
+        title: 'Заголовок'
+        address_input: 'Место'
+        address: 'Адреc'
+        location: 'Расположение'
+        chapters: 'Вступление'
+      invite:
+        email: 'Электронная почта'
+        text: 'Текст'
+      chapters:
+        content: 'Содержание'
+      chapter:
+        title: 'Заголовок'
+        content: 'Содержание'
+        number: 'Номер'
+      review:
+        rating: 'Оценка: '
+      user:
+        email: 'Электронная почта'
+        name: 'Имя и Фамилия'
+        username: 'Псевдоним'
+        avatar: 'Фотография:'
+        password: 'Пароль'
+        password_confirmation: 'Подтверждение пароля'
+        gender: 'пол'
+        country_id: 'Страна:'
+        city_id: 'Город:'
+        invite_code: 'Код приглашения:'
+    errors:
+      messages:
+        taken: "%{model} с таким именем уже существует"
+        record_invalid: "Валидация не прошла: %{errors}"
+        restrict_dependent_destroy:
+          one: "Невозможно удалить запись, так как существуют зависимости: %{record}"
+          many: "Невозможно удалить записи, так как существуют зависимости: %{record} "
+        inclusion: "недопустимое значение"
+        exclusion: "не может быть использовано"
+        invalid: "содержит недопустимое значение"
+        confirmation: "не совпадет с введенным паролем."
+        accepted: "должен быть подходящим"
+        empty: "не может быть пустым"
+        blank: "не может быть пустым"
+        too_long: "Максимум символов: %{count}"
+        too_short: "Минимум символов: %{count}"
+        wrong_length: "is the wrong length (should be {{count}} characters)"
+        taken: "уже занята"
+        not_a_number: "может содержать только цифры"
+        greater_than: "должно быть больше {{count}}"
+        greater_than_or_equal_to: "должно быть больше или равно {{count}}"
+        equal_to: "должно быть равно {{count}}"
+        less_than: "должно быть меншье {{count}}"
+        less_than_or_equal_to: "должно быть меньше или равно {{count}}"
+        odd: "может быть только нечетным"
+        even: "может быть только четным"
+      models:
+        user:
+          attributes:
+            invite_code:
+              invalid: 'был введен несуществующий или использованный ключ.'
+        story:
+          attributes:
+            location:
+              unique: 'в этом месте уже есть активные истории. Попробуйте немного передвинуть маркер или выберите другой адрес.'
+              invalid: 'неверный формат адреса.'
+            chapters:
+              presence: 'обязательно укажите вводную информацию.'
+        story_invite:
+          attributes:
+            email:
+              unique: 'уже есть приглашение с таким адресом'
+              author: 'нельзя просто взять и пригласить себя в свою же историю :)'
+              has_hero: 'приглашенный уже является участником'
+  helpers:
+    label:
+      story:
+        title: 'Заголовок:'
+        address_input: 'Место:'
+        address: 'Адреc:'
+        location: 'Расположение.'
+        chapters: 'Вступление:'
+      story_invite:
+        email: 'Адрес электронной почты или ник участника (если зарегиcтрирован):'
+        text: 'Текст приглашения:'
+      chapters:
+        content: 'Содержание:'
+      chapter:
+        title: 'Заголовок:'
+        content: 'Содержание:'
+        number: 'Номер:'
+    submit:
+      story:
+        create: 'Опубликовать'
+        update: 'Обновить'
+      story_invite:
+        create: 'Отправить приглашение'
+      chapter:
+        create: 'Опубликовать'
+        update: 'Обновить'
+      demand:
+        create: 'Отправить заявку'
+      comment:
+        create: 'Опубликовать'
