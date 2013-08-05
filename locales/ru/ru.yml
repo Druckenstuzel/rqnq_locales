@@ -18,14 +18,6 @@ ru:
     new:
       registration_closed: 'Стать участником можно только по приглашению.'
   quest_time_error: 'Квест нельзя отредактировать, так как прошло больше 15 минут после его создания.'
-  layouts:
-    our_email: 'Почта'
-    navigation:
-      my_page: 'Моя страница'
-      new_story: 'Новая история'
-      settings: 'Настройки'
-      adventures: 'Приключения'
-      my_tasks: 'Задания'
   users:
     form_js:
       title: 'Личная карточка'
@@ -181,4 +173,3 @@ ru:
       activities: "%d.%m.%Y в %H:%M"
       chapters: "Добавлена: %d.%m.%Y"
       demand: "%d.%m.%Y"
-  select_lang: 'По-русски'

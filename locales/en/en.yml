@@ -1,1 +1,10 @@
 en:
+  time:
+    formats:
+      default: "%d.%m.%Y"
+      comment: "%d.%m.%Y в %H:%M"
+      chapter: 'Last Updated: %d.%m.%Y'
+      avatar_timestamps: '%d%m%Y%H%M%S'
+      activities: "%d.%m.%Y в %H:%M"
+      chapters: "Added: %d.%m.%Y"
+      demand: "%d.%m.%Y"
