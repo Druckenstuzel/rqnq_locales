@@ -44,51 +44,6 @@ ru:
     achievements:
       newbie: 'Стал участником'
       complete_stude: 'Завершил обучение'
-  profile:
-    activity_quests:
-      title: 'Активные квесты'
-    my_quests:
-      title: 'Мои квесты'
-    activity:
-      title: 'Лента событий'
-    adventures:
-      title: 'Приключения'
-      completed_introduction: 'Завершивший обучение'
-    courier:
-      user_text: 'У этого человека сейчас нет заданий, в которых вы могли бы стать героем.'
-      text_step1: "Мы, Бесконечные Записи, будем наблюдать за развитием твоего аватара и рассказывать о твоих новых возможностях. Кроме наших сообщений в ленте активности будут и другие, связанные с тобой и событиями этого мира."
-    navigation:
-      activity: 'Активность'
-      open_tasks: 'Открытые задания'
-  characters:
-    repeating_entries: 'Бесконечные записи'
-  comments:
-    placeholder: 'Текст нового комментария...'
-    created_comment: 'Комментарий добавлен'
-  reviews:
-    review_title: 'Отзывы'
-    review_submit: 'Опубликовать отзыв'
-    reviewer_author: 'автор'
-    reviewer_hero: 'герой'   
-    posted_review: 'Отзыв добавлен!' 
-    rating:
-      rating_1: 'Плохо'
-      rating_6: 'Хорошо'
-      rating_10: 'Отлично'
-  demands:
-    demands: 'Заявки'
-    actions:
-      approve: 'Принять'
-      disapprove: 'Отклонить'
-    approve: 'Заявка принята.'
-    disapprove: 'Заявка отклонена :('
- #   notice:
- #     wait_title: 'Самое время проявить терпение!'
- #     wait_description: 'Вы получите уведомление на электронную почту, как только найдется человек, который захочет стать героем этого квеста.'
- #     info_title: 'Отправьте заявку, чтобы стать героем этого квеста!'
- #     info_description: 'После того как заявка будет одобрена, вы сможете принять участие в обсуждении квеста, познакомиться с его автором и другими героями.'
- #     sent_title: 'Заявка отправлена.'
- #     sent_description: 'Вы получите уведомление на электронную почту, как только автор назначит вас героем.'
   unauthorized:
     manage:
       all: 'Мир Эр-кью-энд-кью не доступен для неизвестных.'
@@ -99,58 +54,11 @@ ru:
       author: 
         text: 'Автор: %{author}'
   quests:
-    quest_author: 'Автор квеста'
-    quest_title: 'Квест'
-    quest_update: 'Квест отредактирован.'
-    quest_heroes: 'Герои'
-    quest_complete: 'Завершить'
-    quest_completed: 'Успешно или нет завершен этот квест решать вам, напишите об этом в своем отзыве!'
-    quest_preview:
-      you: 'Вы'
-    new_quest: 'Новый квест'
-    create_quest: 'Создать квест'
-    on_map: 'На карте'
-    my_adventures: 'Мои приключения'
-    my_quests: 'Мои квесты'
-    quest:
-      demands:
-        title: 'Заявки'
-        new: 'Заявка на участие'
-      error_page: 
-        author: 'автору'
-    starting_quest: 'Стартовый квест'
-    author: 'автор'
     appointed_hero: 'вы были назначены героем!'
     you_hero: 'Теперь вы герой этого квеста!'
-    has_hero: 'У этого квеста уже есть герой, поэтому он недоступен для продолжения старых и создания новых дискуссий!'
-    quest_was_deleted: 'Квест удален.'
-    no_discussions: 'Пока что нет претендентов на звание героя этого квеста.'
-    create_your_discussion: 'Напишите о том, почему вы хотите стать героем этого квеста!'
-    describe_experience: 'Расскажите о ваших впечатлениях (не меньше 50 символов)! '
-    feats: 'Подвиги'
-    introduction_quest_description: 'Помогите разобраться в Эр-кью-энд-кью.'
-    tasks:
-      title: 'Завершенные задания'
-      title_my: 'Мои задания'
-    my_tasks:
-      title: 'Мои задания'
-      no_active: 
-        text: 'Сейчас у вас нет активных заданий. Но это всегда %{add_quest_link} :)'
-        make_different: 'можно исправить'
-    adventures:
-      title: 'Участник приключений'
-      title_my: 'Приключения'
     controls:
       edit: 'Редактировать'
       delete: 'Удалить'
-    error_page:
-      deleted_title: 'Квест №%{number} удален' 
-      blocked_title: 'Квест №%{number} заблокирован' 
-      deleted_description: 'Этому квесту уже не суждено стать приключением, причины этого известны только его %{author_href}.'
-      blocked_description: 'Этот квест заблокирован. Информацию о причинах блокировки можно получить, написав запрос на <a class="error__link" href="mailto:tribunal@rqnq.com">tribunal@rqnq.com</a>. В письме не забудьте указать номер квеста.'
-      additional_text: 'Но не стоит расстраиваться, вы можете поискать приключение достойное вас %{map_href} или вернуться на %{profile_href}.'
-      map: 'на карте'
-      my_page: 'свою страницу'
     note:
       title: 'На заметку'
       text: 'Ключ можно использовать, пока кто-то не зарегистрируется с помощью него. И еще, передавая ключ лично, сообщайте свой псевдоним (%{username}). '

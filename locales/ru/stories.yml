@@ -7,6 +7,9 @@ ru:
       participant: 'Я &mdash; участник'
       invite: 'Куда меня пригласили'
       no_stories: 'Нет историй по выбранным параметрам.'
+    show:
+      new_demand: 'Новая заявка'
+      demands: 'Заявки'
     new:
       title: 'Новая история'
     edit:
@@ -19,3 +22,11 @@ ru:
       disapprove: 'Отклонить'
     heroes:
       no_invites: 'Нет приглашений.'
+    blocked_or_deleted:
+      deleted_title: 'История №%{number} удалена' 
+      blocked_title: 'История №%{number} заблокирована' 
+      deleted_description: 'Этому история завершилась удалением, причины этого известны только ее автору.'
+      story_author: 'автору'
+      blocked_description: 'Информацию о причинах блокировки можно узнать, написав запрос на <a class="error__link" href="mailto:mail@rqnq.com">mail@rqnq.com</a>. В письме укажите номер истории.'
+      map: 'на карте'
+      my_page: 'свою страницу'

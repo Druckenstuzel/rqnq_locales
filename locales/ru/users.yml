@@ -1,0 +1,5 @@
+ru:
+  users:
+    profile_block:
+      username: 'Ник: %{username}'
+      city: 'Город: %{city}'

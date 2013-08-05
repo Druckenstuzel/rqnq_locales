@@ -1,0 +1,4 @@
+ru:
+  comments:
+    form:
+      placeholder: 'Текст нового комментария...'
