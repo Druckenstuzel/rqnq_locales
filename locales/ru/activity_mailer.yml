@@ -1,0 +1,14 @@
+ru:
+  activity_mailer:
+    newsletter:
+      title: 'Новые события в Эр-кью-энд-кью'
+      body: 'Уведомление о новых событиях связанных с вами.'
+      unread_new_demand_story: 'Заявки:'
+      new_story_demand: '&laquo;%{demand_message}&raquo; в &laquo;%{story_link}&raquo;.'   
+      unread_approve_demand_story: 'Истории, где вы стали участником:'   
+      approve_story_demand: '%{story_link}'
+      unread_add_comment_story: 'Комментарии в историях:'
+      new_story_comment: '&laquo;%{comment_text}&raquo; в &laquo;%{story_link}&raquo;.'
+      unread_add_comment_story_chapter: 'Комментарии в главах:'
+      new_story_chapter_comment: '&laquo;%{comment_text}&raquo; в &laquo;%{chapter_link}&raquo;.'
+      chapter_introduction: 'Введение'
