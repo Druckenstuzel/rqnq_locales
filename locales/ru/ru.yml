@@ -49,10 +49,6 @@ ru:
       all: 'Мир Эр-кью-энд-кью не доступен для неизвестных.'
   address_format: 
     street: 'улица'
-  quest:
-    content:
-      author: 
-        text: 'Автор: %{author}'
   quests:
     appointed_hero: 'вы были назначены героем!'
     you_hero: 'Теперь вы герой этого квеста!'
@@ -79,5 +75,4 @@ ru:
       chapter: 'Последнее обновление: %d.%m.%Y'
       avatar_timestamps: '%d%m%Y%H%M%S'
       activities: "%d.%m.%Y в %H:%M"
-      chapters: "Добавлена: %d.%m.%Y"
       demand: "%d.%m.%Y"

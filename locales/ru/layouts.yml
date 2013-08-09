@@ -4,7 +4,5 @@ ru:
       select_lang: 'По-русски'
       our_email: 'Почта: %{email}'
     navigation:
-      my_page: 'Моя страница'
-      stories: 'Истории'
-      new_story: 'Новая история'
+      stories: 'Список историй'
       settings: 'Настройки'

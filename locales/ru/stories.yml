@@ -6,8 +6,11 @@ ru:
       author: 'Моего авторства'
       participant: 'Я &mdash; участник'
       invite: 'Куда меня пригласили'
+      new_story: 'Создать новую'
       no_stories: 'Нет историй по выбранным параметрам.'
     show:
+      delete_confirm: 'Уверены, что хотите удалить эту историю?'
+      story_author: 'Автор: %{author}'
       new_demand: 'Новая заявка'
       demands: 'Заявки'
     new:
@@ -20,8 +23,23 @@ ru:
       author_text: '<strong>Комментарий автора приглашения:</strong><p>%{invite_text}</p>'
       approve: 'Принять'
       disapprove: 'Отклонить'
+    chapters:
+      title: 'Оглавление'
+      introduction: 'Вступление'
+      not_available_for_show: 'Нет прав для просмотра глав. Йо.'
+      add: 'Добавить главу'
     heroes:
-      no_invites: 'Нет приглашений.'
+      title: 'Участники'
+      blank: 'У этой истории нет участников.'
+      destroy: 'Удалить участника'
+      destory_confirm: 'Уверены, что хотите удалить этого участника?'
+      destory_me_confirm: 'Уверены, что хотите покинуть эту историю?'
+      new_invite: 'Пригласить'
+    place: 
+      title: 'Место действия'
+    activities:
+      title: 'Последние события'
+      blank: 'У вас пока нет событий связанных с этой историей.'
     blocked_or_deleted:
       deleted_title: 'История №%{number} удалена' 
       blocked_title: 'История №%{number} заблокирована' 

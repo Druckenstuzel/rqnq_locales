@@ -1,8 +1,6 @@
 ru:
   chapter:
     introduction: 'Вступление'
-    type: 'Глава'
-    back_to_story: '<span>Вернуться к истории</span>:'
     delete_confirm: 'Уверены, что хотите удалить эту главу?'
     author: 
       text: 'Автор: %{author}'

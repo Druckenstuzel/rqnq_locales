@@ -1,0 +1,40 @@
+ru: 
+  activities:
+    items:
+      close: 'Закрыть окно'
+      story_add_hero:
+        male: '%{author} добавил нового участника: %{resource}.'
+        female: '%{author} добавила нового участника: %{resource}.'
+      story_destroy_hero:
+        male: '%{author} исключил участника: %{resource}.'
+        female: '%{author} исключила участника: %{resource}.'
+      story_self_destroy_hero:
+        male: '%{author} покинул эту историю.'
+        female: '%{author} покинула эту историю.'
+      story_add_demand:
+        male: '%{author} подал заявку на участие в истории &laquo;%{resource}&raquo;.'
+        female: '%{author} подала заявку на участие в истории &laquo;%{resource}&raquo;.'
+      story_approve_demand:
+        male: '%{author} подвердил заявку на участие в истории &laquo;%{resource_2}&raquo; от пользователя: %{resource}.'
+        female: '%{author} подвердила заявку на участие в истории &laquo;%{resource_2}&raquo; от пользователя: %{resource}.'
+      story_disapprove_demand:
+        male: '%{author} отклонил вашу заявку на участие в истории &laquo;%{resource_2}&raquo;.'
+        female: '%{author} отклонила вашу заявку на участие в истории &laquo;%{resource_2}&raquo;.'
+      story_approve_invite:
+        male: '%{author} принял приглашение на участие в истории &laquo;%{resource_2}&raquo;.'
+        female: '%{author} приняла приглашение на участие в истории &laquo;%{resource_2}&raquo;.'
+      story_disapprove_invite:
+        male: '%{author} отклонил приглашение на участие в истории &laquo;%{resource_2}&raquo;.'
+        female: '%{author} отклонила приглашение на участие в истории &laquo;%{resource_2}&raquo;.'
+      story_add_chapter:
+        male: '%{author} добавил новую главу &laquo;%{resource}&raquo; в историю &laquo;%{resource_2}&raquo;.'
+        female: '%{author} добавила новую главу &laquo;%{resource}&raquo; в историю &laquo;%{resource_2}&raquo;.'
+      story_add_invite:
+        male: '%{author} отправил новое приглашениев в историю &laquo;%{resource_2}&raquo; для адресата: &laquo;%{resource}&raquo;.'
+        female: '%{author} отправила новое приглашение в историю &laquo;%{resource_2}&raquo; для адресата: &laquo;%{resource}&raquo;.'
+      story_add_comment:
+        male: '%{author} написал новый %{resource} в историю &laquo;%{resource_2}&raquo;.'
+        female: '%{author} написала новый %{resource} в историю &laquo;%{resource_2}&raquo;.'
+      chapter_add_comment:
+        male: '%{author} написал новый комментарий в главу %{resource}.'
+        female: '%{author} написала новый комментарий %{resource}.'

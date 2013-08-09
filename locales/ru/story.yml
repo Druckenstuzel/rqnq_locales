@@ -1,22 +1,10 @@
 ru:
   story:
-    type:
-      Quest: 'История-задание'
-      Story: 'История'
     notices:
       success_complete: 'История завершена!'
       success_destroy: 'История удалена.'
       success_update: 'История отредактирована.'
       success_hero_destroy: 'Участник удален.'
-    delete_confirm: 'Уверены, что хотите удалить эту историю?'
-    hero_destory_confirm: 'Уверены, что хотите удалить этого участника?'
-    hero_destory_me_confirm: 'Уверены, что хотите покинуть эту историю?'
-    panel:
-      new_invite: 'Новое приглашение'
-    chapters:
-      title: 'Главы'
-      new_chapter: 'Добавить новую'
-      introduction: 'Вступление'
     comments:
       title: 'Комментарии'
     demands:
@@ -30,11 +18,6 @@ ru:
       introduction_placeholder: 'Это текст поможет быстрее разобраться в основной идее истории и промотивировать других людей стать ее участниками.'
       address_input_placeholder: 'Адрес где должна начаться или произойти ваша история.'
       back: 'Вернуться без сохранения'
-    heroes:
-      destroy_hero: 'Удалить участника'
-      title: 'Участники'
-      new_invite: 'Пригласить'
-      invitations_title: 'Ваши приглашения:'
     activities: 
       new_story: 
         body: 'Вы создали эту историю и первую главу &laquo;%{resource}&raquo;.'
