@@ -9,6 +9,8 @@ ru:
       approve_story_demand: '%{story_link}'
       unread_new_story_invites: 'Новые приглашения в историях:'
       new_story_invites: '%{story_link}'
+      unread_story_approve_invites: 'Принятые приглашения:'
+      story_approve_invites: 'Пользователь %{author_name} принял приглашение в историю &laquo;%{story_link}&raquo;.'
       added_story_chapter: 'Новая глава &laquo;%{chapter_link}&raquo; в истории &laquo;%{story_link}&raquo;.' 
       unread_add_comment_story: 'Комментарии в историях:'
       unread_added_chapters: 'Новые главы:'
