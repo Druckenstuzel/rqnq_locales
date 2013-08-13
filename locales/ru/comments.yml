@@ -1,4 +1,6 @@
 ru:
   comments:
     form:
+      add_image: 'Добавить картинку'
+      add_images: '+ <span>Добавить картинки</span>'
       placeholder: 'Текст нового комментария...'
