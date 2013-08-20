@@ -1,0 +1,21 @@
+en:
+  activity_mailer:
+    newsletter:
+      title: 'New evets in RQnQ'
+      body: 'Notification on new events that have something to do with you.'
+      unread_new_demand_story: 'Applications:'
+      new_story_demand: '&laquo;%{demand_message}&raquo; в &laquo;%{story_link}&raquo;.'
+      unread_approve_demand_story: 'The stories that you partisipate in:'
+      approve_story_demand: '%{story_link}'
+      unread_new_story_invites: 'New invitations to the stories:'
+      new_story_invites: '%{story_link}'
+      unread_story_approve_invites: 'Accepted invitations:'
+      story_approve_invites: 'User %{author_name} has accepted invitation to the story &laquo;%{story_link}&raquo;.'
+      added_story_chapter: 'New chapter &laquo;%{chapter_link}&raquo; has been added to the story &laquo;%{story_link}&raquo;.'
+      unread_add_comment_story: 'Comments in the stories:'
+      unread_added_chapters: 'New chapters:'
+      added_story_chapter: 'New chapter &laquo;%{chapter_link}&raquo; has been added to the story &laquo;%{story_link}&raquo;.'
+      new_story_comment: '&laquo;%{comment_text}&raquo; в &laquo;%{story_link}&raquo;.'
+      unread_add_comment_story_chapter: 'Comments in the chapters:'
+      new_story_chapter_comment: '&laquo;%{comment_text}&raquo; в &laquo;%{chapter_link}&raquo;.'
+      chapter_introduction: 'Introduction'
