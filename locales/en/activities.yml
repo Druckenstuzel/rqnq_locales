@@ -1,0 +1,41 @@
+en:
+  activities:
+    items:
+      close: 'Close window'
+      story_add_hero:
+        male: '%{author} has added a new hero: %{resource}.'
+        female: '%{author} has added a new hero: %{resource}.'
+      story_destroy_hero:
+        male: '%{author} has expelled a hero: %{resource}.'
+        female: '%{author} has expelled a hero: %{resource}.'
+      story_self_destroy_hero:
+        male: '%{author} has left the story.'
+        female: '%{author} has left the story.'
+      story_add_demand:
+        male: '%{author} is willing to become the hero of the story &laquo;%{resource}&raquo;.'
+        female: '%{author} is willing to become the hero of the story &laquo;%{resource}&raquo;.'
+      story_approve_demand:
+        male: '%{author} has accpeted the application &laquo;%{resource_2}&raquo; from: %{resource}.'
+        female: '%{author} has accpeted the application &laquo;%{resource_2}&raquo; from: %{resource}.'
+      story_disapprove_demand:
+        male: '%{author} has declined your application &laquo;%{resource_2}&raquo;.'
+        female: '%{author} has declined your application &laquo;%{resource_2}&raquo;.'
+      story_approve_invite:
+        male: '%{author} has accepted your invitation to participate in the story &laquo;%{resource_2}&raquo;.'
+        female: '%{author} has accepted your invitation to participate in the story &laquo;%{resource_2}&raquo;.'
+      story_disapprove_invite:
+        male: '%{author} has declined your invitation to participate in the story &laquo;%{resource_2}&raquo;.'
+        female: '%{author} has declined your invitation to participate in the story &laquo;%{resource_2}&raquo;.'
+      story_add_chapter:
+        male: '%{author} has added a new chapter &laquo;%{resource}&raquo; to the story &laquo;%{resource_2}&raquo;.'
+        female: '%{author} has added a new chapter &laquo;%{resource}&raquo; to the story &laquo;%{resource_2}&raquo;.'
+      story_add_invite:
+        male: '%{author} has sent a new invitation to the story &laquo;%{resource_2}&raquo; for: &laquo;%{resource}&raquo;.'
+        female: '%{author} has sent a new invitation to the story &laquo;%{resource_2}&raquo; for: &laquo;%{resource}&raquo;.'
+      story_add_comment:
+        male: '%{author} has added a new %{resource} to the story &laquo;%{resource_2}&raquo;.'
+        female: '%{author} has added a new %{resource} to the story &laquo;%{resource_2}&raquo;.'
+      chapter_add_comment:
+        male: '%{author} has added a new comment to the chapter %{resource}.'
+        female: '%{author} has added a new comment to the chapter %{resource}.'
+
